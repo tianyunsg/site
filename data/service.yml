@@ -1,0 +1,24 @@
+enable  : true
+title   : 戏中情缘
+subtitle: 戏中情缘 2018 冬 敬请期待
+image   : images/最新演出.jpg
+serviceItem :
+  - icon  : ion-ios-paper-outline
+    title : 主题
+    description: >
+       三个折子戏，展现戏曲中的情缘
+
+  - icon  : ion-ios-pint-outline
+    title : 阵容
+    description: >
+      老中青三代 强大阵容
+
+  - icon  : ion-ios-paper-outline
+    title : 地址
+    description: >
+      V国家图书馆剧院
+
+  - icon  : ion-ios-paper-outline
+    title : 售票
+    description: >
+      免费入场

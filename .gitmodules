@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/tianyunsg/tianyunsg.github.io.git
+	branch = master

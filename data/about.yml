@@ -1,0 +1,20 @@
+enable  : true
+title   : 天韵京剧社
+description: >
+  始于1992年，设于新加坡，奉献最好的京剧演出  
+  <br>
+  <br>
+  我们培养新血继承及提倡发扬优秀京剧艺术。历年来在各剧院/民众联络所/学校/宗乡团体会所举办多场京剧讲解示范及各类大小型演出，曾数次赴中国北京/上海/武汉/太原/南宁/大连与当地京剧团体联合演出。
+image   : images/landing.jpg
+aboutItem:
+  - title : 宗旨
+    description: > 
+      始于1992年，设于新加坡，奉献最好的京剧演出  
+
+  - title : 成就
+    description: > 
+      我们培养新血继承及提倡发扬优秀京剧艺术。历年来在各剧院
+
+  - title : Meet The Energy
+    description: > 
+      曾数次赴中国北京/上海/武汉/太原/南宁/大连与当地京剧团体联合演出

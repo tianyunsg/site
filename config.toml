@@ -1,0 +1,106 @@
+baseURL = "https://tianyunsg.github.io/"
+languageCode = "en-us"
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/v2/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "关于"
+        url     = "/about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "最新演出"
+        url     = "/service"
+        weight  = 3
+    [[menu.nav]]
+        name    = "影相"
+        url     = "/gallery"
+        weight  = 4
+    [[menu.nav]]
+        name    = "文稿"
+        url     = "/blog"
+        weight  = 5
+    [[menu.nav]]
+        name    = "联系"
+        url     = "/contact"
+        weight  = 6
+
+# Site Params
+[params]
+    home = "主页"
+    dateFormat = "6 January 2006"
+    #
+    # You can use either an image or text as logo.
+    # To use an image use 'logo' (logo itself) and 'logo_alt' (alternative text if image cannot displayed)
+    # To use text as logo use 'logo_text'
+    logo = "images/tianyun.jpg"
+    logo_alt = "logo"
+    #logo_text = "logo_text"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/landing2.jpg"
+        heading = "天韵京剧社"
+        description = "始于1992年，设于新加坡，奉献最好的京剧演出"
+        btn     = true
+        btnText = "了解更多"
+        btnURL  = "/about"
+        [[params.banner.flipText]]
+            title   = "国粹"
+        [[params.banner.flipText]]
+            title   = "人艺"
+        [[params.banner.flipText]]
+            title   = "精进"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "关于我们"
+        content = "我们培养新血继承及提倡发扬优秀京剧艺术。历年来在各剧院/民众联络所/学校/宗乡团体会所举办多场京剧讲解示范及各类大小型演出，曾数次赴中国北京/上海/武汉/太原/南宁/大连与当地京剧团体联合演出。"
+        image   = "images/about/about.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "联系我们"
+        content = "如果您有任何演出合作的意向，或对我们有宝贵建议，请联系我们"
+        btnText = "联系"
+        btnURL  = "/contact"
+
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = true
+        title   = "过往演出"
+        subtitle= "2018年7月23日（星期一）晚上7时45分 国家图书馆三楼 戏剧中心剧院 维多利亚街100号 自由座位 中英字幕"
+
+    # Feature Product Section
+    [params.featureProduct]
+        enable  = true
+        title   = "SOME OF OUR FEATURES WORKS"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    # Footer section
+    [params.footer]
+        customized  = false # Set this variable to true if you customized the design.
+        copyright_owner = "Themefisher"
+        copyright_since = "2018"
+        [[params.footer.social]]
+            icon = "ion-social-facebook"
+            link = "https://facebook.com"
+        [[params.footer.social]]
+            icon = "ion-social-twitter"
+            link = "https://twitter.com"
+        [[params.footer.social]]
+            icon = "ion-social-linkedin"
+            link = "https://linkedin.com"
+        [[params.footer.social]]
+            icon = "ion-social-googleplus"
+            link = "https://googleplus.com"
+        [[params.footer.social]]
+            icon = "ion-social-github"
+            link = "https://github.com"
